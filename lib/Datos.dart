@@ -116,6 +116,23 @@ class Datos extends StatelessWidget {
                         ),
                       ),
                     ),
+                    ElevatedButton(
+                      child: Text(
+                        'Ver conclusión',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/conclusion');
+                      },
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.black,
+                        minimumSize: Size(200, 60),
+                      ),
+                    ),
                   ],
                 ),
               ),
