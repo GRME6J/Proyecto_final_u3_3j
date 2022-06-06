@@ -27,7 +27,13 @@ class Conclusion extends StatelessWidget {
           width: double.infinity,
           height: double.infinity,
           child: Column(
-            children: [],
+            children: [
+              Center(
+                  child: Text('Con la culminacion de esta actividad puedo concluir con que, para el desarrollo de aplicaciones moviles en este caso de android, es necesario el uso de plataformas como flutter por que ayuda y nos sirve para poder desarollar la estructura de la aplicacion, con la variedad de widgets que tiene permitiendo así, poder crear infinidad de interfaces de usuario para poder adaptar a las necesiades de la aplicacion o el cliente, en este caso los requerimentos fueron las paginas de empleados, clientes, sus registros, desarollador, conclusion, usar un gridview, un listview, todo esto fue lo pedido y lo desarollado en flutlab',
+                      style: TextStyle(
+                        fontSize: 20,
+                      )))
+            ],
           ),
         ),
       ),
