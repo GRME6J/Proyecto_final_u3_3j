@@ -85,7 +85,7 @@ class Datos extends StatelessWidget {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
                       child: SizedBox(
-                        height: 220,
+                        height: 240,
                         width: double.infinity,
                         child: ListView(
                           children: ListTile.divideTiles(
@@ -134,7 +134,7 @@ class Datos extends StatelessWidget {
                       ),
                     ),
                     SizedBox(
-                      height: 70,
+                      height: 90,
                     )
                   ],
                 ),
